@@ -1,4 +1,3 @@
-#首先需要检测系统有没有expect 
 #!/usr/bin/expect -f
 set f [open ./ip r]
 while { [gets $f line ]>=0 } {
